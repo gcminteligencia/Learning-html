@@ -5,44 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="ico/html.ico" type="image/x-icon">
-    <title>Citacões e Códigos</title>
-    <style>
-        mark {
-            background-color: rgb(224, 224, 224);
-        }
-    </style>
+    <title>List</title>
 </head>
 <body>
-    <h1>Outras formatacões</h1>
+    <h1>Trabalhando com listas</h1>
     <hr>
-    <h2>Código Fonte</h2>
-    <p>O comando <code><mark>printf("Hello, world.");</mark></code> é escrito em linguagem C.</p>
-    <p>O comando subsequente é ultilizado em python:</p>
-    <pre>
-        <code>
-ok = True
-while ok:
-    x = 0
-    x = int(input('Type a number: '))
-    if x % 2 == 0:
-        print('Your number is even.')
-    else:
-        print('Your number is odd.')
-    ok = False
-        </code>
-    </pre>
-    <h2>Citacões Simples</h2>
-    <p>Como Near diria: <q>
-        Se você não consegue resolver o enigma, se você não consegue resolver o problema, você não é nada mais, nada menos que um perdedor.
-    </q>
-    <p>Segundo Stephen Hawking:</p>
-    <blockquote cite="https://www.amazon.com.br/Breves-respostas-para-grandes-ques
-    t%C3%B5es/dp/855100431X/ref=sr_1_5?keywords=breves+respostas+p
-    ara+grandes+quest%C3%B5es&qid=1641754334&sprefix=breves%2Caps%2C342&sr=8-5">
-        Da próxima vez que alguém reclamar que você cometeu um erro, diga a essa
-        pessoa que talvez isso seja uma boa coisa, porque sem imperfeição nem você nem eu existiríamos.
-    </blockquote>
-    <h2>Abreviacões</h2>
-    <p>Estou estudando <abbr title="Hyper Text Makerup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr> em uma <abbr title="Integrated Development Environment">IDE</abbr></p>
+    <h2>Ordered list</h2>
+    <ol type="I">
+        <li>Requisitos de Software</li>
+        <li>Documento de Requisitos</li>
+        <li>Engenharia de Requisitos</li>
+        <li>Modelagem de Sistemas</li>
+        <li>Teste de Software</li>
+        <li>Evolucao de Software</li>
+        <li>Configuracao de Software</li>
+    </ol>
+    <h2>Unordered list</h2>
+    <ul>
+        <li>Engenharia Mecatrônica</li>
+        <li>Engenharia de Software</li>
+        <li>Engenharia Eletrônica</li>
+        <li>Engenharia da Computação</li>
+        <li>Engenharia Química</li>
+        <li>Engenharia Elétrica</li>
+        <li>Engenharia Civil</li>
+        <li>Engenharia Mecânica</li>
+    </ul>
+    <h2>Favourite Languages</h2>
+    <ul type="a">
+        <li>New</li>
+        <ol>
+            <li>Python</li>
+            <li>Kotlin</li>
+        </ol>
+        <li>Old</li>
+        <ol>
+            <li>Java</li>
+            <li>C</li>
+        </ol>
+    </ul>
+    <h2>Jogos que mais Zerei</h2>
+    <ul type="a">
+        <li>PlayStation 2</li>
+        <ol>
+            <li>God Hand: 7</li>
+            <li>God of War: 3</li>
+            <li>God of War 2: 3</li>
+            <li>Grand Theft Auto SA: 2</li>
+            <li>Homem Aranha: 1</li>
+        </ol>
+        <li>PlayStation 3</li>
+        <ol>
+            <li>Grand Theft Auto V: 2</li>
+        </ol>
+    </ul>
+    <h2>Definition List</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hyper Text Markerup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+    </dl>
+
 </body>
 </html>

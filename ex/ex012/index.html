@@ -9,6 +9,21 @@
 <body>
     <h1>Inserindo videos hospedado localmente</h1>
     <p>Este video está hospedado no meu próprio servidor</p>
-    <video src="media/city-night.mp4" width="500" controls></video>
+    <video width="560" controls poster="image/thumb.png">
+        <source src="media/city-night.mp4" type="video/mp4">
+        <source src="media/city-night.m4v" type="video/mp4">
+        <source src="media/city-night.ogv" type="video/ogv">
+        <source src="media/city-night.webm" type="video/webm">
+        <p>Se o video nao foi reproduzido, faca o download, <a href="media/city-night.mp4">click aqui</a>.</p>
+    </video>
+    <h1>Inserindo video direto do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3Spd4q_m0L0" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen></iframe>
+    <h1>Inserindo video direto do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/37826844?h=b4c183a219&title=0&byline=0&portrait=0" 
+    width="560" height="316" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" 
+    allowfullscreen></iframe>
 </body>
 </html>

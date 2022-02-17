@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'odl1';
+    src: url(fonts/old.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'old2';
+    src: url(fonts/Berkahi.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    background-color: #FFFCFF;
+    color: black;
+}
+
+
+h1 {
+    color: #50514F;
+    background-color: #CBD4C2;
+    text-align: center;
+    font-family: 'odl1', Arial, Helvetica, sans-serif;
+}
+
+
+h2 {
+    font-family: 'odl1', Arial, Helvetica, sans-serif;
+    color: #50514F;
+}
+
+
+h3 {
+    font-family: 'odl1',Arial, Helvetica, sans-serif;
+    color: #50514F;
+}
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+   text-indent: 30px; 
+    color: #50514F;
+}
+
+
+h1#main {
+    font-family: 'odl1', Arial, Helvetica, sans-serif;
+    color: #247BA0;
+    background-color: #FFFCFF;
+}

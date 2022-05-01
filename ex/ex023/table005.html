@@ -5,8 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table 005</title>
+    <style>
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        td, th {
+            border: 1px solid #000000;
+            padding: 10px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        col.colnome {
+            background-color: aqua;
+        }
+
+        col.coltwogroup {
+            background-color: yellowgreen;
+        }
+
+        col.colprof {
+            background-color: tomato;
+        }
+
+    </style>
 </head>
 <body>
-    
+    <h1>Table 005</h1>
+    <table>
+        <colgroup>
+            <col class="colnome">
+            <col class="coltwogroup" span="2">
+            <col class="colprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Cláudio Gomes</td>
+            <td>M</td>
+            <td>45</td>
+            <td>Político</td>
+        </tr>
+        <tr>
+            <td>Angell Belger</td>
+            <td>M</td>
+            <td>23</td>
+            <td>Engenheiro de Software</td>
+        </tr>
+        <tr>
+            <td>Matheus Viana</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Designer Gráfico</td>
+        </tr>
+        <tr>
+            <td>Gabriel Alan</td>
+            <td>M</td>
+            <td>21</td>
+            <td>Agrônomo</td>
+        </tr>
+        <tr>
+            <td>Lucian Mattos</td>
+            <td>M</td>
+            <td>21</td>
+            <td>Empresário</td>
+        </tr>
+        <tr>
+            <td>Patrícia Trindade</td>
+            <td>F</td>
+            <td>23</td>
+            <td>Secretária</td>
+        </tr>
+    </table>
 </body>
 </html>

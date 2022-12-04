@@ -5,10 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formu</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
 </head>
 <body>
     <h1>Form</h1>
-    <form action="">
+    <form action="cadastro.php" method="post">
         <p>
             <label for="iName">name:</label>
             <input type="text" name="nName" id="iName">
@@ -17,6 +22,7 @@
             <label for="iLastname">Surname:</label>
             <input type="text" name="nLastname" id="iLastname">
         </p>
+        <input type="submit" value="Send">
     </form>
 </body>
 </html>

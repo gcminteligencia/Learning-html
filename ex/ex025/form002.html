@@ -13,10 +13,10 @@
 </head>
 <body>
     <h1>Request</h1>
-    <form action="cadastro.php" method="post">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <p>
             <label for="iUser">Username:</label>
-            <input type="text" name="nUser" id="iUser" required minlength="2">
+            <input type="text" name="nUser" id="iUser" required minlength="2" maxlength="20" autocomplete="username" placeholder="Username">
         </p>
         <p>
             <label for="iPass">Password</label>

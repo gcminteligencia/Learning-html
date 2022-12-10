@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 006</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;  
+        }
+    </style>
+</head>
+<body>
+    <form action="cad.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Archives</legend>
+            <p>
+                <label for="iColor">What is your favourite Color: </label>
+                <input type="color" name="nColor" id="iColor" value="#ffffff">
+            </p>
+            <p>
+                <label for="iOpinion">Your Opinion?</label>
+                <input type="range" name="nOpinion" id="iOpinion" min="" max="10" value="7">
+            </p>
+            <p>
+                <label for="iPhoto">Photo:</label>
+                <input type="file" name="nPhoto" id="iPhoto">
+            </p>
+        </fieldset>
+        <input type="submit" value="Send">
+        <input type="reset" value="Clen">
+    </form>
+</body>
+</html>

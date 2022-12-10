@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 007</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;  
+        }
+    </style>
+</head>
+<body>
+    <form action="cad.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>States</legend>
+            <p>
+                <label for="iStates">Estado:</label>
+                <select name="nStates" id="iStates">
+                    <optgroup label="Norte">
+                        <option value="PR">Pará</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="TO">Tocantins</option>
+                    </optgroup>
+                    <optgroup label="Sul">
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="PR">Paraná</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                <label for="iDo">Profissão</label>
+                <input type="text" name="nDo" id="iDo">
+                <datalist id="work">
+                    <option value="DEV">Engenheiro de Software</option>
+                    <option value="ADM">Administrador</option>
+                    <option value="POLICIA">Policial Civil</option>
+                    <option value="MEI">Micro Empreendedor</option>
+                </datalist>
+            </p>
+            
+        </fieldset>
+        <input type="submit" value="Send">
+        <input type="reset" value="Clen">
+    </form>
+</body>
+</html>

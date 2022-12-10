@@ -5,32 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form 005</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
 </head>
 <body>
     <h1>Ex Form</h1>
     <form action="cadastro.php" method="get">
         <fieldset>
             <legend>Gender</legend>
+            <input type="radio" name="gender" id="male" value="Male" checked>
             <label for="male">Male</label>
-            <input type="radio" name="gender" id="male" checked>
+            <input type="radio" name="gender" id="female" value="Female">
             <label for="female">Female</label>
-            <input type="radio" name="gender" id="female">
+        </fieldset>
+        <fieldset>
+            <legend>Sport</legend>
+            <input type="checkbox" name="nBasket" id="iBasket">
+            <label for="iBasket">Basket</label>
+            <input type="checkbox" name="nFutebol" id="iFutebol">
+            <label for="iFutebol">Futebol</label>
+            <input type="checkbox" name="nVoley" id="iVoley">
+            <label for="iVoley">Voley</label>
+            <input type="checkbox" name="nTenis" id="iTenis">
+            <label for="iTenis">Tênis</label>
         </fieldset>
         <p>
             <input type="submit" value="Send">
             <input type="reset" value="Clean">
         </p>
-        <fieldset>
-            <legend>Sport</legend>
-            <label for="">Basket</label>
-            <input type="checkbox" name="nBasket" id="iBasket">
-            <label for="">Futebol</label>
-            <input type="checkbox" name="nFutebol" id="iFutebol">
-            <label for="">Voley</label>
-            <input type="checkbox" name="nVoley" id="iVoley">
-            <label for="">Tênis</label>
-            <input type="checkbox" name="nTenis" id="iTenis">
-        </fieldset>
     </form>
 </body>
 </html>

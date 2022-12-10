@@ -13,10 +13,24 @@
 </head>
 <body>
     <form action="cal.php" method="get">
-        <label for="iNumber01">Number 01:</label>
-        <input type="number" name="nNumber01" id="iNumber01">
-        <label for="iNumber02">Number 02:</label>
-        <input type="number" name="nNumber02" id="iNumber02">
+
+        <fieldset>
+            <legend>Calculator</legend>
+            <P>
+                <label for="iNumber01">Number 01:</label>
+                <input type="number" name="nNumber01" id="iNumber01" required oninput="iSoma.innerHTML = Number(iNumber01.value) + Number(iNumber02.value)">
+            </P>
+            <P>
+                <label for="iNumber02">Number 02:</label>
+                <input type="number" name="nNumber02" id="iNumber02" required oninput="iSoma.innerHTML = Number(iNumber01.value) + Number(iNumber02.value)">
+            </P>
+            <P>
+                <label for="iSoma">Soma:</label>
+                <output name="nSoma" id="iSoma">0</output>
+            </P>
+        </fieldset>
+        <input type="submit" value="Send">
+        <input type="reset" value="Clean">
     </form>
 </body>
 </html>

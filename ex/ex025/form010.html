@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <form action="cal.php" method="get">
+
+        <fieldset>
+            <legend>Ano de Nascimento</legend>
+            <p>
+                <label for="iNascimento">Ano de nascimento:</label>
+                <input type="number" name="nNascimento" id="iNascimento" min="1900" max="2022" oninput="idade.innerHTML = ">
+            </p>
+            <p>
+                <label for="idade">Idade:</label>
+                <output id="idade">?</output>
+            </p>
+        </fieldset>
+        <input type="submit" value="Send">
+        <input type="reset" value="Clean">
+    </form>
+
+    <SCript>
+        function calcIdade(){
+            let anoAtual = new Date().getFullYear()
+            let age = Number(anoAtual) - Number(iNascimento.value)
+        }
+    </SCript>
+</body>
+</html>

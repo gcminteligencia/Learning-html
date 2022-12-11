@@ -18,11 +18,11 @@
             <legend>Ano de Nascimento</legend>
             <p>
                 <label for="iNascimento">Ano de nascimento:</label>
-                <input type="number" name="nNascimento" id="iNascimento" min="1900" max="2022" oninput="idade.innerHTML = ">
+                <input type="number" name="nNascimento" id="iNascimento" min="1900" max="2022" value="2022" oninput="calcIdade()">
             </p>
             <p>
-                <label for="idade">Idade:</label>
-                <output id="idade">?</output>
+                <label for="age">Idade:</label>
+                <output id="age">?</output>
             </p>
         </fieldset>
         <input type="submit" value="Send">
@@ -32,7 +32,7 @@
     <SCript>
         function calcIdade(){
             let anoAtual = new Date().getFullYear()
-            let age = Number(anoAtual) - Number(iNascimento.value)
+            age.innerHTML = Number(anoAtual) - Number(iNascimento.value)
         }
     </SCript>
 </body>

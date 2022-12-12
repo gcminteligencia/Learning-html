@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*---------- TO PRINT ----------*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+menu {
+    display: none;
+}
+
+h1, h2, h3 {
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+article::after {
+    content: 'Via Extranet - Angell Belger';
+}

@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/*------- Mbile First -------*/
+
+* {
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+
+body {
+    background: url(../images/back-phone.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+main {
+    text-align: center;
+    background-color: #f0f8ffa8;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+#iconpc {
+    display: none;
+}
+
+#iconphone {
+    margin: auto;
+}
+
+#iconprint {
+    display: none;
+}
+
+#icontablet {
+    display: none;
+}
+
+#icontv {
+    display: none;
+}

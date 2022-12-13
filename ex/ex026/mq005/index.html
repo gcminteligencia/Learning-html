@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Media Query</title>
 </head>
 <body>
     <header>
         <h1>The New York Time</h1>
-        <menu>
+        <span class="material-icons" id="burguer" onclick="showMenu()">menu</span>
+        <menu id="mb">
             <ul>
                 <li><a href="#">Option 01</a></li>
                 <li><a href="#">Option 02</a></li>
@@ -31,5 +33,14 @@
     <footer>
         Footer
     </footer>
+    <script>
+        function showMenu(){
+            if (mb.style.display == 'block'){
+                mb.style.display = 'none'
+            }else {
+                mb.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>

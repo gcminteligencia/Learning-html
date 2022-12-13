@@ -7,19 +7,21 @@
 
 body, html {
     height: 100vh;
-    background-color: aliceblue;
+    background-color: rgb(197, 228, 255);
 }
 
 h1 {
+    text-align: center;
     font-size: 2em;
 }
 
-menu {
-    text-align: center;
-    background-color: black;
+menu#mb {
+    display: none;
 }
 
 menu a {
+    text-align: center;
+    display: block;
     padding: 10px;
     margin: 5px;
     color: aliceblue;
@@ -29,7 +31,34 @@ menu a {
 menu li {
     padding: 7px;
     background-color: grey;
-    border-radius: 7px;
+    border: 1px solid black;
+}
+
+#burguer {
+    text-align: center;
+    display: block;
+    color: white;
+    background-color: darkred;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#burguer:hover {
+    background-color: red;
+    color: white;
+}
+
+main {
+    background-color: white;
+    width: 90vw;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+menu li:hover {
+    background-color: darkred;
 }
 
 p {

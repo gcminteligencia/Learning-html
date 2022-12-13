@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+    background: url(../images/back-pc.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#iconpc {
+    display: block;
+}
+
+#iconphone {
+    display: none;
+}
+
+#iconprint {
+    display: none;
+}
+
+#icontablet {
+    display: none;
+}
+
+#icontv {
+    display: none;
+}

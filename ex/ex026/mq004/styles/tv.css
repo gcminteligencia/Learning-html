@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(../images/back-tv.jpg);
+}
+
+main {
+    width: 800px;
+}
+
+#iconpc {
+    display: none;
+}
+
+#iconphone {
+    display: none;
+}
+
+#iconprint {
+    display: none;
+}
+
+#icontablet {
+    display: none;
+}
+
+#icontv {
+    display: block;
+}

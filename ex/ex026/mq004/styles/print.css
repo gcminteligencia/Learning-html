@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+
+main {
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+main::after {
+    content: 'Impressão através do Site Angell Belger';
+}
+
+#iconphone {
+    display: none;
+}
+
+#iconprint {
+    display: block;
+}

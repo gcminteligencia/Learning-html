@@ -2,6 +2,18 @@
 
 /*------- Mbile First -------*/
 
+/*
+================ Everyone ================
+======= Typical Device Breakpoints =======
+
+small screen: max 600px
+cellphone screen: min 600px max 768px
+tablet screen: min 768px max 992px
+desktop screen: min 992px max 1200px
+bigger screen: min 1200px
+
+*/
+
 * {
     font-size: 1em;
     margin: 0px;
@@ -34,12 +46,16 @@ h1 {
     font-size: 2em;
 }
 
+main img {
+    margin: auto;
+}
+
 #iconpc {
     display: none;
 }
 
 #iconphone {
-    margin: auto;
+    display: block;
 }
 
 #iconprint {
@@ -51,5 +67,9 @@ h1 {
 }
 
 #icontv {
+    display: none;
+}
+
+#iconprint {
     display: none;
 }

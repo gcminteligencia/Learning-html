@@ -1,5 +1,20 @@
 @charset "UTF-8";
 
+/*------- Mbile First -------*/
+
+/*
+================ Everyone ================
+======= Typical Device Breakpoints =======
+
+small screen: max 600px
+cellphone screen: min 600px max 768px
+tablet screen: min 768px max 992px
+desktop screen: min 992px max 1200px
+tv screen: min 1200px
+
+*/
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -55,6 +70,7 @@ main {
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-radius: 20px;
 }
 
 menu li:hover {

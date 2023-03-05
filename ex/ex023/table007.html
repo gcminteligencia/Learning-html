@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         table {
-            border: solid 1px black;
+            border-collapse: collapse;
         }
         td, th {
             border-collapse: collapse;
             border: solid 1px black;
+            padding: 0px;
+        }
+        th#test {
+            width: 500px;
         }
     </style>
     <title>Document</title>
@@ -22,7 +26,7 @@
             <thead>
                 <tr>
                     <th>Produtos</th>
-                    <th>Jan</th>
+                    <th id="test">Jan</th>
                     <th>Feb</th>
                     <th>Mar</th>
                     <th>Apr</th>
